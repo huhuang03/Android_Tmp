@@ -14,6 +14,7 @@ public class ButtonWrapper extends Button {
 
     public ButtonWrapper(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
+        Log.d("debug", "should not be here");
     }
 
     public ButtonWrapper(Context context, AttributeSet attrs, int defStyle) {
